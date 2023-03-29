@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:rgb(179, 121, 217);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+width: 100%;
+text-align: center;
+margin-top: 100px;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+
+#inputText{
+width: 300px;
+height: 35px;
+border: 1px solid black;
+outline: auto;
+font-size: 25px;
+vertical-align: middle;
+border: 3px solid orange;
+border-radius: 5px;
+color: black;
+}
+
+#addToDo{
+    width: 80px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 25px;
+    vertical-align: middle;
+    outline: none;
+    background-color: rgb(205, 100, 223);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+#addToDo:active{
+    background:black;
+    color: white;
+}
+
+#addToDo:hover{
+    background-color:black;
+    color: pink;
+}
+
+#clearToDo{
+    width: 80px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 25px;
+    vertical-align: middle;
+    outline: none;
+    background-color: rgb(205, 100, 223);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+#clearToDo:active{
+    background-color: black;
+    color: white;
+}
+
+#clearToDo:hover{
+    background-color: black;
+    color: pink;
+}
